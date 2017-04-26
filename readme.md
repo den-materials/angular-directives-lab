@@ -1,6 +1,6 @@
 <!--11:05 5 minutes -->
 <!--11:16 actually WDI2-->
-
+<!--11:06 WDI3 -->
 <!--Hook: So who can tell me what a directive is?  (If no answer, can try to piece it together / fill in the blanks).  Well in this class, we'll be building our own from scratch. -->
 
 # Writing Custom Directives
@@ -32,6 +32,7 @@ Examples:
 * [Date picker](https://angular-ui.github.io/bootstrap/#/datepicker)
 * [Color picker](http://ruhley.github.io/angular-color-picker/)
 
+<!--WDI3 11:09 -->
 <!--11:10 5 minutes -->
 
 #### Real World Example
@@ -63,6 +64,7 @@ We want it to look like:
 
 <img width="965" alt="Cards Against Assembly" src="https://cloud.githubusercontent.com/assets/25366/9666972/05a2f348-522e-11e5-8f6c-7c503032eff4.png">
 
+<!--11:14 WDI3 turning over to devs -->
 <!--11:15 10 minutes -->
 
 ## Know The Code - Independent
@@ -93,6 +95,7 @@ This will let us serve up our HTML and JS files without running into Cross Origi
 
 <!--Actually 11:35 -->
 
+<!--11:20 WDI3 -->
 <!--11:25 5 minutes -->
 
 ### Let's be organized!
@@ -121,6 +124,7 @@ Remember, in the official Angular docs it's called `ngClass` or `ngRepeat`, but 
 
 <!--Actually 11:40 when devs putting it together-->
 
+<!--11:26 WDI3-->
 <!--11:30 5 minutes -->
 
 #### Let's make a function!
@@ -136,8 +140,9 @@ function wdiCard(){
 
 Nothing fancy yet - we're just constructing an object and then returning it. We'll put some specifics in there now, but that's simple so far.
 
-<!--Actually 11:46 -->
+<!--Actually 11:46 WDI2-->
 
+<!--WDI3 
 <!--11:35 10 minutes -->
 
 ## Directive Options - Codealong
@@ -175,7 +180,8 @@ function wdiCard(){
 }
 ```
 
-<!--Actually 11:48 -->
+<!--Actually 11:48 WDI2-->
+<!--11:33 WDI3 -->
 
 <!--11:45 10 minutes -->
 
@@ -212,7 +218,9 @@ function wdiCard(){
 }
 ```
 
-<!--Actually 11:50 -->
+<!--Actually 11:50 WDI2-->
+
+<!--11:35 WDI3 -->
 
 <!--11:55 10 minutes -->
 
@@ -271,7 +279,9 @@ TRY IT! So awesome! We've now got this much more readable `index.html`, with a _
 
 This is awesome. This is a great, reusable component. Except for _one_ thing.
 
-<!---wooah tricky issue, 3 devs had templateURL instead of templateUrl -->
+<!---tricky issue: devs tend to use templateURL instead of templateUrl -->
+
+<!--11:47 WDI3 -->
 
 <!--12:05 15 minutes -->
 
@@ -367,6 +377,7 @@ Somewhere _outside_ the context of the controller, let's say just above the foot
 
 Would you look at that? Our own custom directive - a reusable, semantic HTML component that we designed ourselves.
 
+<!--WDI3 12:17-->
 <!-- Actually 12:31 -->
 
 ### Resources
